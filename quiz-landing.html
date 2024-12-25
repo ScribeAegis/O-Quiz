@@ -1,0 +1,78 @@
+<!-- Quiz Landing Page for WordPress (Use in a Page or Post Editor) -->
+<title>Opioid Awareness Quizzes</title>
+
+<div style="text-align: center; padding: 20px; background-color: #f9f9f9;">
+    <img src="https://www.mothersingriefsupportgroup.com/wp-content/uploads/2024/02/letterhead_migsg_logo.png" alt="Your Logo" style="max-width: 150px; margin-bottom: 20px;"/>
+
+    <h1 style="color: #333; font-family: Arial, sans-serif;">Opioid Awareness Quizzes</h1>
+    <p style="font-family: Arial, sans-serif;">Select a quiz to start:</p>
+    
+    <h2 style="color: #555; font-family: Arial, sans-serif;">Available Quizzes</h2>
+    
+    <a href="file:///C:/Users/hybri/OneDrive/Desktop/quizzes/fentanyl%20awareness/fentanyl-awareness-quiz.html" 
+       class="btn" 
+       style="display: inline-block; margin: 15px; padding: 15px 30px; font-size: 18px; color: white; 
+              background-color: #a17de8; border: none; border-radius: 5px; text-decoration: none; 
+              transition: background-color 0.3s, box-shadow 0.3s; text-align: center;">
+       Quiz #1: General Awareness
+    </a>
+    <a href="file:///C:/Users/hybri/OneDrive/Desktop/quizzes/Narcan%20and%20Overdose%20Prevention/narcan-overdose-prevention-quiz.html" 
+       class="btn" 
+       style="display: inline-block; margin: 15px; padding: 15px 30px; font-size: 18px; color: white; 
+              background-color: #a17de8; border: none; border-radius: 5px; text-decoration: none; 
+              transition: background-color 0.3s, box-shadow 0.3s; text-align: center;">
+       Quiz #2: Recognizing Risks
+    </a>
+    <a href="file:///C:/Users/hybri/OneDrive/Desktop/quizzes/Parents%20and%20Youth%20Awareness/parents-and-youth-awareness-quiz.html" 
+       class="btn" 
+       style="display: inline-block; margin: 15px; padding: 15px 30px; font-size: 18px; color: white; 
+              background-color: #a17de8; border: none; border-radius: 5px; text-decoration: none; 
+              transition: background-color 0.3s, box-shadow 0.3s; text-align: center;">
+       Quiz #3: Parents and Youth
+    </a>
+
+    <h2 style="color: #555; font-family: Arial, sans-serif; margin-top: 30px;">About the Quizzes</h2>
+    <p style="font-family: Arial, sans-serif; margin: 0 20px;">
+        These quizzes are designed to help you understand the dangers associated with opioids and equip you with the knowledge to make informed decisions. By participating, you contribute to raising awareness and supporting prevention efforts in your community.
+    </p>
+    
+    <h2 style="color: #555; font-family: Arial, sans-serif; margin-top: 30px;">Frequently Asked Questions</h2>
+    <ul style="list-style-type: none; padding: 0; font-family: Arial, sans-serif; margin: 0 20px;">
+        <li><strong>How long do the quizzes take?</strong> Each quiz typically takes 5-10 minutes to complete.</li>
+        <li><strong>Are my responses confidential?</strong> Yes, your responses will remain anonymous.</li>
+        <li><strong>Can I retake the quizzes?</strong> Absolutely! Feel free to retake any quiz to improve your knowledge.</li>
+    </ul>
+
+    <div style="margin-top: 20px;">
+        <button onclick="window.location.href='https://mothersingriefsupportgroup.com'" 
+                class="btn" 
+                style="padding: 15px 30px; font-size: 18px; color: white; 
+                       background-color: #a17de8; border: none; border-radius: 5px; cursor: pointer; 
+                       transition: background-color 0.3s, box-shadow 0.3s;">
+            Return to Homepage
+        </button>
+    </div>
+</div>
+
+<footer style="text-align: center; padding: 20px; background-color: #f9f9f9; margin-top: 20px;">
+    <p style="font-family: Arial, sans-serif; color: #555;">Made with ❤️ by Mothers In Grief Support Group</p>
+</footer>
+
+<script>
+    // Add hover effects using JavaScript
+    const buttons = document.querySelectorAll('.btn');
+
+    buttons.forEach(button => {
+        button.addEventListener('mouseover', () => {
+            button.style.backgroundColor = '#a27de8'; // Slightly darker on hover
+            button.style.boxShadow = '0 4px 15px rgba(161, 125, 232, 0.5)'; // Glow effect
+            button.style.transform = 'scale(1.05)'; // Slightly enlarge on hover
+        });
+
+        button.addEventListener('mouseout', () => {
+            button.style.backgroundColor = '#a17de8'; // Original color
+            button.style.boxShadow = 'none'; // Remove glow effect
+            button.style.transform = 'scale(1)'; // Reset size
+        });
+    });
+</script>
